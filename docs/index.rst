@@ -1,8 +1,5 @@
 Bug
 ===
 
-.. automodule:: bug.foo
-    :members:
-
-.. automodule:: bug.bar
+.. automodule:: bug
     :members:

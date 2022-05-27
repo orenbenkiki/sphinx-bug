@@ -1,5 +1,5 @@
 Running Sphinx v4.5.0
-loading pickled environment... 
+loading pickled environment...
 done
 building [mo]: targets for 0 po files that are out of date
 building [html]: targets for 0 source files that are out of date
@@ -12,19 +12,15 @@ checking consistency... done
 preparing documents... done
 writing output... [100%] index
 
-/home/obk/sphinx-bug/bug/foo.py:docstring of bug.foo.bar_to_foo:: WARNING: py:class reference target not found: bug.bar.Bar
-/home/obk/sphinx-bug/bug/foo.py:docstring of bug.foo.bar_to_foo:: WARNING: py:class reference target not found: bug.foo.Foo
-/home/obk/sphinx-bug/bug/bar.py:docstring of bug.bar.foo_to_bar:: WARNING: py:class reference target not found: bug.foo.Foo
-/home/obk/sphinx-bug/bug/bar.py:docstring of bug.bar.foo_to_bar:: WARNING: py:class reference target not found: bug.bar.Bar
+/home/obk/sphinx-bug/bug.py:docstring of bug.foo_to_str:: WARNING: py:class reference target not found: bug.Foo
 generating indices... genindex py-modindex done
-highlighting module code... [ 50%] bug.bar
-highlighting module code... [100%] bug.foo
+highlighting module code... [100%] bug
 
 writing additional pages... search done
 copying static files... done
 copying extra files... done
 dumping search index in English (code: en)... done
 dumping object inventory... done
-build succeeded, 4 warnings.
+build succeeded, 1 warning.
 
 The HTML pages are in _build/html.
